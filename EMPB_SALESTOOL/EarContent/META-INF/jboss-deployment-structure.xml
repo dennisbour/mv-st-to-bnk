@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+	<ear-subdeployments-isolated>false</ear-subdeployments-isolated>
+	<deployment>
+		<dependencies>
+			<module name="org.jboss.ironjacamar.jdbcadapters" export="true" />
+			<module name="com.combank.common.jars" export="true" />
+			<module name="org.joda.time" export="true" />
+			<module name="org.jboss.security.negotiation" export="true" />
+			<module name="org.apache.commons.codec" export="true" />
+			<module name="com.microsoft.sqlserver" export="true" />
+		</dependencies>
+	</deployment>
+	<sub-deployment name="CMaRt.war">
+		<exclusions>
+			<module name="org.apache.commons.logging" />
+			<module name="org.slf4j" />
+			<module name="org.slf4j.ext" />
+			<module name="org.slf4j.impl" />
+			<module name="org.apache.log4j" />
+		</exclusions>
+	</sub-deployment>
+	<sub-deployment name="EMPB_SALESTOOLEJB_ODISSY.jar">
+		<dependencies>
+			<module name="com.combank.common.ldap" />
+		 	<!-- <module name="org.apache.cxf" export="true"/>
+	 		<module name="org.apache.cxf.impl" export="true"/>
+			<module name="org.apache.httpcomponents" export="true"/>
+			<system export="true">
+              <paths>
+                  <path name="sun/net/www/protocol/http/ntlm"/>
+              </paths>
+          	</system> -->
+		</dependencies>
+	</sub-deployment>
+</jboss-deployment-structure>

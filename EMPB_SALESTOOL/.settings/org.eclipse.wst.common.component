@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EMPB_SALESTOOL">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="EMPB_SALESTOOLEJB_ODISSY.jar" deploy-path="/" handle="module:/resource/EMPB_SALESTOOLEJB_ODISSY/EMPB_SALESTOOLEJB_ODISSY">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CMaRt.war" deploy-path="/" handle="module:/resource/CMaRt/CMaRt">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CMARTLogging.war" deploy-path="/" handle="module:/resource/CMARTLogging/CMARTLogging">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

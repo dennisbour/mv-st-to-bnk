@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>EMPB_SALESTOOL</display-name>
+  <initialize-in-order>true</initialize-in-order>
+  <module>
+    <ejb>EMPB_SALESTOOLEJB_ODISSY.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>CMaRt.war</web-uri>
+      <context-root>cmart</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>CMARTLogging.war</web-uri>
+      <context-root>CMARTLogging</context-root>
+    </web>
+  </module>
+</application>
