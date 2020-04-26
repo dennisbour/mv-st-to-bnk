@@ -6,6 +6,8 @@
 		<project>EMPB_SALESTOOLEJB_ODISSY</project>
 		<project>CMaRt</project>
 		<project>CMARTLogging</project>
+		<project>EMPB_SALESTOOLWeb</project>
+		<project>EMPB_SALESTOOLWeb_OLD</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

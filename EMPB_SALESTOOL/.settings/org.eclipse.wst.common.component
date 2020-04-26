@@ -13,5 +13,13 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="EMPB_SALESTOOLWeb.war" deploy-path="/" handle="module:/resource/EMPB_SALESTOOLWeb/EMPB_SALESTOOLWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_SALESTOOLWeb_OLD.war" deploy-path="/" handle="module:/resource/EMPB_SALESTOOLWeb_OLD/EMPB_SALESTOOLWeb_OLD">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
